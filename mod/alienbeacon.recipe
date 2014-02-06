@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "alienbeacon",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}
