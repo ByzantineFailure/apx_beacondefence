@@ -1,9 +1,9 @@
 {
-  "objectName" : "alienbeacon",
+  "objectName" : "tile_flood",
   "rarity" : "Common",
   "objectType" : "wire",
-  "description" : "Prepare for repair!",
-  "shortdescription" : "Alien Beacon",
+  "description" : "Floods an area with background blocks, stops when it hits a foreground block.",
+  "shortdescription" : "Flood With Blocks",
   "race" : "generic",
   "category" : "tools",
   "printable" : "false",
@@ -28,7 +28,7 @@
     "beacon" : "/objects/boss/ironbeacon.png"
   },
   "animationPosition" : [-16, 0],
-  "scripts" : [ "/mods/apx_beacondefence/alienbeacon_logic.lua" ],
+  "scripts" : [ "/flooder.lua" ],
 
   "scriptDelta" : 5
 }

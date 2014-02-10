@@ -1,9 +1,9 @@
 {
   "input" : [
-    { "item" : "ironbar", "count" : 10 }
+    { "item" : "money", "count" : 1 }
   ],
   "output" : {
-    "item" : "alienbeacon",
+    "item" : "tile_flood",
     "count" : 1
   },
   "groups" : [ "plain", "all", "other" ]
